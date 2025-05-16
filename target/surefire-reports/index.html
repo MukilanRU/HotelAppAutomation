@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\mukil\eclipse-workspace\HotelApp\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC005_BookAHotelTest" class="method navigator-link" hash-for-method="bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, John, Doe, california, 1234123412341234, 123, nil, val...)">bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, John, Doe, california, 1234123412341234, 123, nil, val...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC005_BookAHotelTest" class="method navigator-link" hash-for-method="bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Jane, Doe, california, 1234, 123, Please Enter your 16...)">bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Jane, Doe, california, 1234, 123, Please Enter your 16...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC003_SearchAHotel" class="method navigator-link" hash-for-method="bookHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Select Hotel, validtest)">bookHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Select Hotel, validtest)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC003_SearchAHotel" class="method navigator-link" hash-for-method="bookHotelTest(Mukilanru1898, 12345, 09/05/2025, 08/05/2025, Check-In Date shall be before than Check-Out Date, inv...)">bookHotelTest(Mukilanru1898, 12345, 09/05/2025, 08/05/2025, Check-In Date shall be before than Check-Out Date, inv...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC006_CancelHotelTest" class="method navigator-link" hash-for-method="cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.)">cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC002_Login_Test" class="method navigator-link" hash-for-method="loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest)">loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC002_Login_Test" class="method navigator-link" hash-for-method="loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...)">loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC008_LogoutTest" class="method navigator-link" hash-for-method="logoutTest(Mukilanru1898, 12345, You have successfully logged out. Click here to login again)">logoutTest(Mukilanru1898, 12345, You have successfully logged out. Click here to login again)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC001_NewRegisterationTest" class="method navigator-link" hash-for-method="newRegisterTest(JaneDoe001, pass@123, pass@123, Tester, johndoe001.com, Invalid email, Please enter correct email., ...)">newRegisterTest(JaneDoe001, pass@123, pass@123, Tester, johndoe001.com, Invalid email, Please enter correct email., ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC001_NewRegisterationTest" class="method navigator-link" hash-for-method="newRegisterTest(JohnDoe001, pass@123, pass@123, Tester, johndoe001@gmail.com, Click here to login, ValidTest)">newRegisterTest(JohnDoe001, pass@123, pass@123, Tester, johndoe001@gmail.com, Click here to login, ValidTest)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC007_SearchTest" class="method navigator-link" hash-for-method="searchFunctionTest(Mukilanru1898, 12345, 1 result(s) found. Show all, validtest)">searchFunctionTest(Mukilanru1898, 12345, 1 result(s) found. Show all, validtest)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC007_SearchTest" class="method navigator-link" hash-for-method="searchFunctionTest(Mukilanru1898, 12345, 0 result(s) found. Show all, invalidtest)">searchFunctionTest(Mukilanru1898, 12345, 0 result(s) found. Show all, invalidtest)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC004_SelectAHotelTest" class="method navigator-link" hash-for-method="selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Please Select a Hotel, invalidtest)">selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Please Select a Hotel, invalidtest)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TC004_SelectAHotelTest" class="method navigator-link" hash-for-method="selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Adactin.com - Book A Hotel, validtest)">selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Adactin.com - Book A Hotel, validtest)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC003_SearchAHotel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Select Hotel, validtest)">
+                  </a> <!-- bookHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Select Hotel, validtest) -->
+                  <span class="method-name">bookHotelTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,07/05/2025,08/05/2025,Select Hotel,validtest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookHotelTest(Mukilanru1898, 12345, 09/05/2025, 08/05/2025, Check-In Date shall be before than Check-Out Date, inv...)">
+                  </a> <!-- bookHotelTest(Mukilanru1898, 12345, 09/05/2025, 08/05/2025, Check-In Date shall be before than Check-Out Date, inv...) -->
+                  <span class="method-name">bookHotelTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,09/05/2025,08/05/2025,Check-In Date shall be before than Check-Out Date,invalidtest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC007_SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFunctionTest(Mukilanru1898, 12345, 1 result(s) found. Show all, validtest)">
+                  </a> <!-- searchFunctionTest(Mukilanru1898, 12345, 1 result(s) found. Show all, validtest) -->
+                  <span class="method-name">searchFunctionTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,1 result(s) found. Show all,validtest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFunctionTest(Mukilanru1898, 12345, 0 result(s) found. Show all, invalidtest)">
+                  </a> <!-- searchFunctionTest(Mukilanru1898, 12345, 0 result(s) found. Show all, invalidtest) -->
+                  <span class="method-name">searchFunctionTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,0 result(s) found. Show all,invalidtest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC006_CancelHotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.)">
+                  </a> <!-- cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.) -->
+                  <span class="method-name">cancelHotelTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,The booking has been cancelled.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC008_LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest(Mukilanru1898, 12345, You have successfully logged out. Click here to login again)">
+                  </a> <!-- logoutTest(Mukilanru1898, 12345, You have successfully logged out. Click here to login again) -->
+                  <span class="method-name">logoutTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,You have successfully logged out. Click here to login again)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC004_SelectAHotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Please Select a Hotel, invalidtest)">
+                  </a> <!-- selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Please Select a Hotel, invalidtest) -->
+                  <span class="method-name">selectHotelTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,07/05/2025,08/05/2025,Please Select a Hotel,invalidtest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Adactin.com - Book A Hotel, validtest)">
+                  </a> <!-- selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Adactin.com - Book A Hotel, validtest) -->
+                  <span class="method-name">selectHotelTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,07/05/2025,08/05/2025,Adactin.com - Book A Hotel,validtest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC002_Login_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest)">
+                  </a> <!-- loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,Hello Mukilanru1898!,ValidTest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...)">
+                  </a> <!-- loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Mukilanru1898,12346,Invalid Login details or Your Password might have expired. Click here to reset your password,InvalidTest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC005_BookAHotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, John, Doe, california, 1234123412341234, 123, nil, val...)">
+                  </a> <!-- bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, John, Doe, california, 1234123412341234, 123, nil, val...) -->
+                  <span class="method-name">bookAHotelTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,07/05/2025,08/05/2025,John,Doe,california,1234123412341234,123,nil,validtest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Jane, Doe, california, 1234, 123, Please Enter your 16...)">
+                  </a> <!-- bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Jane, Doe, california, 1234, 123, Please Enter your 16...) -->
+                  <span class="method-name">bookAHotelTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,07/05/2025,08/05/2025,Jane,Doe,california,1234,123,Please Enter your 16 Digit Credit Card Number,invalidtest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TC001_NewRegisterationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(JaneDoe001, pass@123, pass@123, Tester, johndoe001.com, Invalid email, Please enter correct email., ...)">
+                  </a> <!-- newRegisterTest(JaneDoe001, pass@123, pass@123, Tester, johndoe001.com, Invalid email, Please enter correct email., ...) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(JaneDoe001,pass@123,pass@123,Tester,johndoe001.com,Invalid email, Please enter correct email.,InvalidTest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newRegisterTest(JohnDoe001, pass@123, pass@123, Tester, johndoe001@gmail.com, Click here to login, ValidTest)">
+                  </a> <!-- newRegisterTest(JohnDoe001, pass@123, pass@123, Tester, johndoe001@gmail.com, Click here to login, ValidTest) -->
+                  <span class="method-name">newRegisterTest</span>
+                  <span class="parameters">(JohnDoe001,pass@123,pass@123,Tester,johndoe001@gmail.com,Click here to login,ValidTest)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mukil\eclipse-workspace\HotelApp\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://adactinhotelapp.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.ListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TC001_NewRegisterationTest&quot;/&gt;
+      &lt;class name=&quot;tests.TC002_Login_Test&quot;/&gt;
+      &lt;class name=&quot;tests.TC003_SearchAHotel&quot;/&gt;
+      &lt;class name=&quot;tests.TC004_SelectAHotelTest&quot;/&gt;
+      &lt;class name=&quot;tests.TC005_BookAHotelTest&quot;/&gt;
+      &lt;class name=&quot;tests.TC006_CancelHotelTest&quot;/&gt;
+      &lt;class name=&quot;tests.TC007_SearchTest&quot;/&gt;
+      &lt;class name=&quot;tests.TC008_LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'cancelHotelTest')
+data.setCell(0, 2, 'tests.TC006_CancelHotelTest')
+data.setCell(0, 3, 51727);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchFunctionTest')
+data.setCell(1, 2, 'tests.TC007_SearchTest')
+data.setCell(1, 3, 46368);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchFunctionTest')
+data.setCell(2, 2, 'tests.TC007_SearchTest')
+data.setCell(2, 3, 33819);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'newRegisterTest')
+data.setCell(3, 2, 'tests.TC001_NewRegisterationTest')
+data.setCell(3, 3, 25196);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'bookAHotelTest')
+data.setCell(4, 2, 'tests.TC005_BookAHotelTest')
+data.setCell(4, 3, 17002);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'newRegisterTest')
+data.setCell(5, 2, 'tests.TC001_NewRegisterationTest')
+data.setCell(5, 3, 13980);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'bookAHotelTest')
+data.setCell(6, 2, 'tests.TC005_BookAHotelTest')
+data.setCell(6, 3, 9536);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectHotelTest')
+data.setCell(7, 2, 'tests.TC004_SelectAHotelTest')
+data.setCell(7, 3, 7869);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logoutTest')
+data.setCell(8, 2, 'tests.TC008_LogoutTest')
+data.setCell(8, 3, 7114);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectHotelTest')
+data.setCell(9, 2, 'tests.TC004_SelectAHotelTest')
+data.setCell(9, 3, 6866);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'bookHotelTest')
+data.setCell(10, 2, 'tests.TC003_SearchAHotel')
+data.setCell(10, 3, 6807);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'bookHotelTest')
+data.setCell(11, 2, 'tests.TC003_SearchAHotel')
+data.setCell(11, 3, 6533);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginTest')
+data.setCell(12, 2, 'tests.TC002_Login_Test')
+data.setCell(12, 3, 5269);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginTest')
+data.setCell(13, 2, 'tests.TC002_Login_Test')
+data.setCell(13, 3, 4190);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">14 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC003_SearchAHotel</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC007_SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC006_CancelHotelTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC008_LogoutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC004_SelectAHotelTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC002_Login_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TC005_BookAHotelTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportInitilization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC001_NewRegisterationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportInitilization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC003_SearchAHotel</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">171 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC002_Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">171 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC007_SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC005_BookAHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC006_CancelHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC004_SelectAHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC008_LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC001_NewRegisterationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">181 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(JohnDoe001, pass@123, pass@123, Tester, johndoe001@gmail.com, Click here to login, ValidTest)</span>
+                <span class="method-start">5300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">30503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">32933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newRegisterTest(JaneDoe001, pass@123, pass@123, Tester, johndoe001.com, Invalid email, Please enter correct email., ...)</span>
+                <span class="method-start">36179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">50159 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC002_Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">52486 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">52517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest)</span>
+                <span class="method-start">55650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">60919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">63499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...)</span>
+                <span class="method-start">66778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">70968 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC003_SearchAHotel</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">73408 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">73434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Select Hotel, validtest)</span>
+                <span class="method-start">77567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">84374 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">86760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookHotelTest(Mukilanru1898, 12345, 09/05/2025, 08/05/2025, Check-In Date shall be before than Check-Out Date, inv...)</span>
+                <span class="method-start">90203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">96736 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC004_SelectAHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">99030 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">99045 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Adactin.com - Book A Hotel, validtest)</span>
+                <span class="method-start">102274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">110143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">112496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Please Select a Hotel, invalidtest)</span>
+                <span class="method-start">115741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">122607 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC005_BookAHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">124992 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">125023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, John, Doe, california, 1234123412341234, 123, nil, val...)</span>
+                <span class="method-start">128421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">145423 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">147908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookAHotelTest(Mukilanru1898, 12345, 07/05/2025, 08/05/2025, Jane, Doe, california, 1234, 123, Please Enter your 16...)</span>
+                <span class="method-start">151240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">160776 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC006_CancelHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">163187 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">163206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.)</span>
+                <span class="method-start">166938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">218665 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC007_SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">221094 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">221111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchFunctionTest(Mukilanru1898, 12345, 1 result(s) found. Show all, validtest)</span>
+                <span class="method-start">222549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">268918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">271246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchFunctionTest(Mukilanru1898, 12345, 0 result(s) found. Show all, invalidtest)</span>
+                <span class="method-start">274554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">308373 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC008_LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">310741 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
+                <span class="method-start">310759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutTest(Mukilanru1898, 12345, You have successfully logged out. Click here to login again)</span>
+                <span class="method-start">314567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">321681 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TC001_NewRegisterationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closereport</span>
+                <span class="method-start">324352 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
