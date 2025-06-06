@@ -44,9 +44,9 @@ public class LoginPage extends ProjectSpecificationMethods {
 	}
 
 	public SearchHotelPage clickLogin() {
-		waitForSeconds(2);
+		waitForSeconds(1);
 		loginBtn.click();
-		waitForSeconds(2);
+		waitForSeconds(1);
 		return new SearchHotelPage(driver);
 	}
 }

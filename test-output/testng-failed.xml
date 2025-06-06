@@ -8,17 +8,39 @@
   <test thread-count="5" name="ChromeTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.TC002_Login_Test">
+      <class name="tests.TC006_CancelHotelTest">
         <methods>
           <include name="closereport"/>
           <include name="browserclose"/>
           <include name="reportInitilization"/>
+          <include name="cancelHotelTest" invocation-numbers="0"/>
           <include name="testDetails"/>
-          <include name="loginTest" invocation-numbers="1"/>
+          <include name="launchAndLoadingURL"/>
           <include name="setup"/>
+        </methods>
+      </class> <!-- tests.TC006_CancelHotelTest -->
+      <class name="tests.TC007_SearchTest">
+        <methods>
+          <include name="closereport"/>
+          <include name="browserclose"/>
+          <include name="reportInitilization"/>
+          <include name="searchFunctionTest" invocation-numbers="0 1"/>
+          <include name="testDetails"/>
+          <include name="launchAndLoadingURL"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.TC007_SearchTest -->
+      <class name="tests.TC001_NewRegisterationTest">
+        <methods>
+          <include name="closereport"/>
+          <include name="reportInitilization"/>
+          <include name="browserclose"/>
+          <include name="setup"/>
+          <include name="newRegisterTest" invocation-numbers="0"/>
+          <include name="testDetails"/>
           <include name="launchAndLoadingURL"/>
         </methods>
-      </class> <!-- tests.TC002_Login_Test -->
+      </class> <!-- tests.TC001_NewRegisterationTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.TC002_Login_Test" class="method navigator-link" hash-for-method="loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...)">loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,7 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.TC002_Login_Test" class="method navigator-link" hash-for-method="loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest)">loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.TC006_CancelHotelTest" class="method navigator-link" hash-for-method="cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.)">cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,40 +118,18 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.TC002_Login_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...)">
-                  </a> <!-- loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(Mukilanru1898,12346,Invalid Login details or Your Password might have expired. Click here to reset your password,InvalidTest)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at pages.SearchHotelPage.loginValidation(SearchHotelPage.java:135)
-	at tests.TC002_Login_Test.loginTest(TC002_Login_Test.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.TC002_Login_Test</span>
+              <span class="class-name">tests.TC006_CancelHotelTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest)">
-                  </a> <!-- loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(Mukilanru1898,12345,Hello Mukilanru1898!,ValidTest)</span>
+                  <a name="cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.)">
+                  </a> <!-- cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.) -->
+                  <span class="method-name">cancelHotelTest</span>
+                  <span class="parameters">(Mukilanru1898,12345,The booking has been cancelled.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,7 +151,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.TC002_Login_Test&quot;/&gt;
+      &lt;class name=&quot;tests.TC006_CancelHotelTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -227,20 +191,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'tests.TC002_Login_Test')
-data.setCell(0, 3, 4794);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'tests.TC002_Login_Test')
-data.setCell(1, 3, 4384);
+data.setCell(0, 1, 'cancelHotelTest')
+data.setCell(0, 2, 'tests.TC006_CancelHotelTest')
+data.setCell(0, 3, 46895);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -251,6 +211,14 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Cancel hotel by select function verified</span>
+                <span class="reporter-method-output">Cancel hotel by a single itienerary function verified</span>
+                <span class="reporter-method-output">Cancel A hotel function verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -266,48 +234,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.TC002_Login_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.TC006_CancelHotelTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">reportInitilization</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">155 ms</span>
+                <span class="method-start">163 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">testDetails</span>
-                <span class="method-start">162 ms</span>
+                <span class="method-start">172 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
-                <span class="method-start">789 ms</span>
+                <span class="method-start">818 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest(Mukilanru1898, 12345, Hello Mukilanru1898!, ValidTest)</span>
-                <span class="method-start">3257 ms</span>
+                <span class="method-name">cancelHotelTest(Mukilanru1898, 12345, The booking has been cancelled.)</span>
+                <span class="method-start">4098 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserclose</span>
-                <span class="method-start">8054 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchAndLoadingURL(chrome, https://adactinhotelapp.com/)</span>
-                <span class="method-start">10368 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginTest(Mukilanru1898, 12346, Invalid Login details or Your Password might have expired. Click here to reset...)</span>
-                <span class="method-start">12610 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">browserclose</span>
-                <span class="method-start">17230 ms</span>
+                <span class="method-start">51010 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">closereport</span>
-                <span class="method-start">19491 ms</span>
+                <span class="method-start">53454 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

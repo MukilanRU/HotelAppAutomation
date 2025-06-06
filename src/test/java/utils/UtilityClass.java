@@ -90,9 +90,9 @@ public class UtilityClass {
 		return wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
-	public void waitForSeconds(int seconds) {
+	public void waitForSeconds(double seconds) {
 		try {
-			Thread.sleep(seconds * 1000);
+			Thread.sleep((long) (seconds * 1000));
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

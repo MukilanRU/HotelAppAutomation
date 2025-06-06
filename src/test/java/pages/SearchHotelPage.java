@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 
 import Base.ProjectSpecificationMethods;
 
@@ -128,10 +129,12 @@ public class SearchHotelPage extends ProjectSpecificationMethods {
 	public SearchHotelPage loginValidation(String expected, String testType) {
 		if (testType.equalsIgnoreCase("validtest")) {
 			String actual = waitForVisibilityOfElement(userNameShow, 10).getAttribute("value");
-			Assert.assertEquals(actual, expected);
+			Assert.assertEquals(actual, expected, "Login not successful");
+			Reporter.log("Login Successful",true);
 		} else if (testType.equalsIgnoreCase("invalidtest")) {
 			String actual = LoginPage.loginValidation.getText();
-			Assert.assertEquals(actual, expected);
+			Assert.assertEquals(actual, expected, "Login successful with invalid data");
+			Reporter.log("Login not successful with invalid data",true);
 		}
 		return this;
 	}

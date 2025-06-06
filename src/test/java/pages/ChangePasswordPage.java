@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 
 import Base.ProjectSpecificationMethods;
 
@@ -49,19 +50,21 @@ public class ChangePasswordPage extends ProjectSpecificationMethods {
 	}
 
 	public ChangePasswordPage clickSubmitBtn() {
-		waitForSeconds(2);
+		waitForSeconds(1);
 		waitForVisibilityOfElement(submitBtn, 10).click();
-		waitForSeconds(2);
+		waitForSeconds(1);
 		return this;
 	}
 
 	public void changePasswordValidation(String expected, String testType) {
 		if (testType.equalsIgnoreCase("validtest")) {
 			String actual = sucessMsg.getText();
-			Assert.assertEquals(actual, expected);
+			Assert.assertEquals(actual, expected,"Change Password UnSuccessful");
+			Reporter.log("Change Password Successful",true);
 		} else if (testType.equalsIgnoreCase("invalidtest")) {
 			String actual = failureMsg.getText();
-			Assert.assertEquals(actual, expected);
+			Assert.assertEquals(actual, expected,"Change Password Successful");
+			Reporter.log("Change Password Not Successful Due To Errors",true);
 		}
 	}
 

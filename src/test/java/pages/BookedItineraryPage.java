@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 
 import Base.ProjectSpecificationMethods;
 
@@ -39,21 +40,23 @@ public class BookedItineraryPage extends ProjectSpecificationMethods {
 
 	public BookedItineraryPage cancelSelected() {
 		waitForVisibilityOfElement(firstCheckBoxBtn, 10).click();
-		waitForSeconds(2);
+		waitForSeconds(1);
 		waitForVisibilityOfElement(cancelSelectedBtn, 10).click();
-		waitForSeconds(2);
+		waitForSeconds(1);
 		Alert alert = driver.switchTo().alert();
-		waitForSeconds(2);
+		waitForSeconds(0.5);
 		alert.accept();
+		Reporter.log("Cancel hotel by select function verified",true);
 		return this;
 	}
 
 	public BookingCancelConfirmationPage cancelSingleItinerary() {
 		waitForVisibilityOfElement(cancelItineraryBtn, 10).click();
-		waitForSeconds(2);
+		waitForSeconds(1);
 		Alert alert = driver.switchTo().alert();
-		waitForSeconds(2);
+		waitForSeconds(1);
 		alert.accept();
+		Reporter.log("Cancel hotel by a single itienerary function verified",true);
 		return new BookingCancelConfirmationPage(driver);
 	}
 
@@ -64,10 +67,12 @@ public class BookedItineraryPage extends ProjectSpecificationMethods {
 			waitForVisibilityOfElement(goBtn, 10).click();
 			String actual = searchError.getText();
 			Assert.assertEquals(actual, expected);
+			Reporter.log("Valid search function verified",true);
 		} else {
 			waitForVisibilityOfElement(goBtn, 10).click();
 			String actual = searchError.getText();
 			Assert.assertEquals(actual, expected);
+			Reporter.log("Valid search function verified",true);
 		}
 	}
 }
