@@ -42,11 +42,11 @@ public class SelectHotelPage extends ProjectSpecificationMethods {
 		if (testType.equalsIgnoreCase("validtest")) {
 			String actual = pageTitle.getText();
 			Assert.assertEquals(actual, expected, "browser not redirect to next page");
-			Reporter.log("Search Hotel Function Completed", true);
+			Reporter.log("Search Hotel Function Completed With Valid Details", true);
 		} else {
 			String actual = SearchHotelPage.checkInError.getText();
 			Assert.assertEquals(actual, expected);
-			Reporter.log("Search Hotel Not Function Completed Due To Error", true);
+			Reporter.log("Search Hotel Function Completed Due To Error", true);
 		}
 		return this;
 	}
@@ -57,12 +57,12 @@ public class SelectHotelPage extends ProjectSpecificationMethods {
 			waitForVisibilityOfElement(continueBtn, 10).click();
 			String actual = driver.getTitle();
 			Assert.assertEquals(actual, expected, "browser not redirect to next page");
-			Reporter.log("Select Hotel Function Completed", true);
+			Reporter.log("Select Hotel Function Completed With Valid Details", true);
 		} else {
 			waitForVisibilityOfElement(continueBtn, 10).click();
 			String actual = selectHotelError.getText();
 			Assert.assertEquals(actual, expected);
-			Reporter.log("Select Hotel Not Function Completed Due To Error", true);
+			Reporter.log("Select Hotel Function Not Completed Due To Error", true);
 		}
 		return this;
 

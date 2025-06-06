@@ -14,7 +14,6 @@
 		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
-
 			<class name="tests.TC001_NewRegisterationTest" />
 			<class name="tests.TC002_Login_Test" />
 			<class name="tests.TC003_SearchAHotel" />

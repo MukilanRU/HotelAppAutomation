@@ -72,7 +72,7 @@ public class BookedItineraryPage extends ProjectSpecificationMethods {
 			waitForVisibilityOfElement(goBtn, 10).click();
 			String actual = searchError.getText();
 			Assert.assertEquals(actual, expected);
-			Reporter.log("Valid search function verified",true);
+			Reporter.log("Invalid search function verified",true);
 		}
 	}
 }
