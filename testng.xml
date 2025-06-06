@@ -14,16 +14,15 @@
 		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
-		<class name="tests.TC006_CancelHotelTest" />
 
-			<!-- 	<class name="tests.TC001_NewRegisterationTest" />
+			<class name="tests.TC001_NewRegisterationTest" />
 			<class name="tests.TC002_Login_Test" />
 			<class name="tests.TC003_SearchAHotel" />
 			<class name="tests.TC004_SelectAHotelTest" />
 			<class name="tests.TC005_BookAHotelTest" />
 			<class name="tests.TC006_CancelHotelTest" />
-			<class name="tests.TC007_SearchTest" /> 
-			<class name="tests.TC008_LogoutTest" /> -->
+			<class name="tests.TC007_SearchTest" />
+			<class name="tests.TC008_LogoutTest" />
 
 		</classes>
 

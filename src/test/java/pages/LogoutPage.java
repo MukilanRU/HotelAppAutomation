@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 
 import Base.ProjectSpecificationMethods;
 
@@ -20,7 +21,8 @@ public class LogoutPage extends ProjectSpecificationMethods {
 
 	public void logoutValidation(String expected) {
 		String actual = logoutText.getText();
-		Assert.assertEquals(actual, expected);
+		Assert.assertEquals(actual, expected, "Logout not Successful");
+		Reporter.log("Logout Successful", true);
 	}
 
 }
