@@ -14,16 +14,16 @@
       <![CDATA[Login not successful with invalid data]]>
     </line>
     <line>
-      <![CDATA[Search Hotel Function Completed]]>
+      <![CDATA[Search Hotel Function Completed With Valid Details]]>
     </line>
     <line>
-      <![CDATA[Search Hotel Not Function Completed Due To Error]]>
+      <![CDATA[Search Hotel Function Completed Due To Error]]>
     </line>
     <line>
-      <![CDATA[Select Hotel Function Completed]]>
+      <![CDATA[Select Hotel Function Completed With Valid Details]]>
     </line>
     <line>
-      <![CDATA[Select Hotel Not Function Completed Due To Error]]>
+      <![CDATA[Select Hotel Function Not Completed Due To Error]]>
     </line>
     <line>
       <![CDATA[Hotel Booked Successfully ]]>
@@ -44,26 +44,26 @@
       <![CDATA[Valid search function verified]]>
     </line>
     <line>
-      <![CDATA[Valid search function verified]]>
+      <![CDATA[Invalid search function verified]]>
     </line>
     <line>
       <![CDATA[Logout Successful]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-06T16:04:35 IST" name="Suite" finished-at="2025-06-06T16:09:07 IST" duration-ms="272277">
+  <suite started-at="2025-06-06T16:52:48 IST" name="Suite" finished-at="2025-06-06T16:57:29 IST" duration-ms="280438">
     <groups>
     </groups>
-    <test started-at="2025-06-06T16:04:35 IST" name="ChromeTest" finished-at="2025-06-06T16:09:07 IST" duration-ms="272277">
+    <test started-at="2025-06-06T16:52:48 IST" name="ChromeTest" finished-at="2025-06-06T16:57:29 IST" duration-ms="280438">
       <class name="tests.TC002_Login_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:04:35 IST" name="setup" finished-at="2025-06-06T16:04:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:52:48 IST" name="setup" finished-at="2025-06-06T16:52:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:05:21 IST" name="testDetails" finished-at="2025-06-06T16:05:21 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:53:39 IST" name="testDetails" finished-at="2025-06-06T16:53:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:05:21 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:05:24 IST" duration-ms="2425" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:53:39 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:53:42 IST" duration-ms="3328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:05:24 IST" name="loginTest" data-provider="readData" finished-at="2025-06-06T16:05:27 IST" duration-ms="2733" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:53:42 IST" name="loginTest" data-provider="readData" finished-at="2025-06-06T16:53:45 IST" duration-ms="2684" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,11 +108,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:05:27 IST" name="browserclose" finished-at="2025-06-06T16:05:29 IST" duration-ms="2239" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:53:45 IST" name="browserclose" finished-at="2025-06-06T16:53:47 IST" duration-ms="2134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:05:29 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:05:31 IST" duration-ms="2574" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:53:47 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:53:50 IST" duration-ms="3218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,7 +128,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:05:31 IST" name="loginTest" data-provider="readData" finished-at="2025-06-06T16:05:34 IST" duration-ms="2311" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:53:50 IST" name="loginTest" data-provider="readData" finished-at="2025-06-06T16:53:53 IST" duration-ms="2481" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,21 +157,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:05:34 IST" name="browserclose" finished-at="2025-06-06T16:05:36 IST" duration-ms="2188" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC002_Login_Test@ba2f4ec]" started-at="2025-06-06T16:53:53 IST" name="browserclose" finished-at="2025-06-06T16:53:55 IST" duration-ms="2169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
       </class> <!-- tests.TC002_Login_Test -->
       <class name="tests.TC008_LogoutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:04:35 IST" name="setup" finished-at="2025-06-06T16:04:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:52:48 IST" name="setup" finished-at="2025-06-06T16:52:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:08:57 IST" name="testDetails" finished-at="2025-06-06T16:08:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:57:18 IST" name="testDetails" finished-at="2025-06-06T16:57:18 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:08:57 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:09:00 IST" duration-ms="2564" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:57:18 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:57:22 IST" duration-ms="3493" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="logoutTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:09:00 IST" name="logoutTest" data-provider="readData" finished-at="2025-06-06T16:09:05 IST" duration-ms="5091" status="PASS">
+        <test-method signature="logoutTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:57:22 IST" name="logoutTest" data-provider="readData" finished-at="2025-06-06T16:57:27 IST" duration-ms="5010" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -211,21 +211,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:09:05 IST" name="browserclose" finished-at="2025-06-06T16:09:07 IST" duration-ms="2216" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC008_LogoutTest@7a8c8dcf]" started-at="2025-06-06T16:57:27 IST" name="browserclose" finished-at="2025-06-06T16:57:29 IST" duration-ms="2188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
       </class> <!-- tests.TC008_LogoutTest -->
       <class name="tests.TC006_CancelHotelTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:04:35 IST" name="setup" finished-at="2025-06-06T16:04:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:52:48 IST" name="setup" finished-at="2025-06-06T16:52:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:06:47 IST" name="testDetails" finished-at="2025-06-06T16:06:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:55:10 IST" name="testDetails" finished-at="2025-06-06T16:55:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:06:47 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:06:50 IST" duration-ms="2176" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:55:10 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:55:13 IST" duration-ms="3187" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,7 +241,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="cancelHotelTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:06:50 IST" name="cancelHotelTest" data-provider="readData" finished-at="2025-06-06T16:07:25 IST" duration-ms="35035" status="PASS">
+        <test-method signature="cancelHotelTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:55:13 IST" name="cancelHotelTest" data-provider="readData" finished-at="2025-06-06T16:55:55 IST" duration-ms="42245" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -271,21 +271,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- cancelHotelTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:07:25 IST" name="browserclose" finished-at="2025-06-06T16:07:27 IST" duration-ms="2179" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC006_CancelHotelTest@1ce24091]" started-at="2025-06-06T16:55:55 IST" name="browserclose" finished-at="2025-06-06T16:55:58 IST" duration-ms="2175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
       </class> <!-- tests.TC006_CancelHotelTest -->
       <class name="tests.TC005_BookAHotelTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:04:35 IST" name="setup" finished-at="2025-06-06T16:04:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:52:48 IST" name="setup" finished-at="2025-06-06T16:52:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:06:16 IST" name="testDetails" finished-at="2025-06-06T16:06:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:54:38 IST" name="testDetails" finished-at="2025-06-06T16:54:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:06:16 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:06:18 IST" duration-ms="2387" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:54:38 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:54:41 IST" duration-ms="3012" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,7 +301,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="bookAHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:06:18 IST" name="bookAHotelTest" data-provider="readData" finished-at="2025-06-06T16:06:32 IST" duration-ms="14396" status="PASS">
+        <test-method signature="bookAHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:54:41 IST" name="bookAHotelTest" data-provider="readData" finished-at="2025-06-06T16:54:54 IST" duration-ms="13465" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -365,11 +365,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- bookAHotelTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:06:32 IST" name="browserclose" finished-at="2025-06-06T16:06:35 IST" duration-ms="2248" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:54:54 IST" name="browserclose" finished-at="2025-06-06T16:54:57 IST" duration-ms="2136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:06:35 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:06:37 IST" duration-ms="2586" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:54:57 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:55:00 IST" duration-ms="3602" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -385,7 +385,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="bookAHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:06:37 IST" name="bookAHotelTest" data-provider="readData" finished-at="2025-06-06T16:06:45 IST" duration-ms="7812" status="PASS">
+        <test-method signature="bookAHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:55:00 IST" name="bookAHotelTest" data-provider="readData" finished-at="2025-06-06T16:55:08 IST" duration-ms="7730" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -449,21 +449,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- bookAHotelTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:06:45 IST" name="browserclose" finished-at="2025-06-06T16:06:47 IST" duration-ms="2216" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC005_BookAHotelTest@fbd1f6]" started-at="2025-06-06T16:55:08 IST" name="browserclose" finished-at="2025-06-06T16:55:10 IST" duration-ms="2177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
       </class> <!-- tests.TC005_BookAHotelTest -->
       <class name="tests.TC007_SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:04:35 IST" name="setup" finished-at="2025-06-06T16:04:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:52:48 IST" name="setup" finished-at="2025-06-06T16:52:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:07:27 IST" name="testDetails" finished-at="2025-06-06T16:07:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:55:58 IST" name="testDetails" finished-at="2025-06-06T16:55:58 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:07:27 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:07:29 IST" duration-ms="2455" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:55:58 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:56:01 IST" duration-ms="3424" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -479,7 +479,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="searchFunctionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:07:29 IST" name="searchFunctionTest" data-provider="readData" finished-at="2025-06-06T16:07:56 IST" duration-ms="26682" status="PASS">
+        <test-method signature="searchFunctionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:56:01 IST" name="searchFunctionTest" data-provider="readData" finished-at="2025-06-06T16:56:42 IST" duration-ms="40753" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -508,11 +508,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- searchFunctionTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:07:56 IST" name="browserclose" finished-at="2025-06-06T16:07:58 IST" duration-ms="2114" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:56:42 IST" name="browserclose" finished-at="2025-06-06T16:56:44 IST" duration-ms="2206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:07:58 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:08:01 IST" duration-ms="2543" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:56:44 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:56:47 IST" duration-ms="3433" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -528,7 +528,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="searchFunctionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:08:01 IST" name="searchFunctionTest" data-provider="readData" finished-at="2025-06-06T16:08:55 IST" duration-ms="54258" status="PASS">
+        <test-method signature="searchFunctionTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:56:47 IST" name="searchFunctionTest" data-provider="readData" finished-at="2025-06-06T16:57:16 IST" duration-ms="28470" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -553,25 +553,25 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Valid search function verified]]>
+              <![CDATA[Invalid search function verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- searchFunctionTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:08:55 IST" name="browserclose" finished-at="2025-06-06T16:08:57 IST" duration-ms="2208" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC007_SearchTest@5dda768f]" started-at="2025-06-06T16:57:16 IST" name="browserclose" finished-at="2025-06-06T16:57:18 IST" duration-ms="2187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
       </class> <!-- tests.TC007_SearchTest -->
       <class name="tests.TC003_SearchAHotel">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:04:35 IST" name="setup" finished-at="2025-06-06T16:04:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:52:48 IST" name="setup" finished-at="2025-06-06T16:52:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:05:36 IST" name="testDetails" finished-at="2025-06-06T16:05:36 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:53:55 IST" name="testDetails" finished-at="2025-06-06T16:53:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:05:36 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:05:38 IST" duration-ms="2265" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:53:55 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:53:58 IST" duration-ms="3320" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -587,7 +587,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="bookHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:05:38 IST" name="bookHotelTest" data-provider="readData" finished-at="2025-06-06T16:05:43 IST" duration-ms="5080" status="PASS">
+        <test-method signature="bookHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:53:58 IST" name="bookHotelTest" data-provider="readData" finished-at="2025-06-06T16:54:03 IST" duration-ms="5057" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -622,15 +622,15 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Search Hotel Function Completed]]>
+              <![CDATA[Search Hotel Function Completed With Valid Details]]>
             </line>
           </reporter-output>
         </test-method> <!-- bookHotelTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:05:43 IST" name="browserclose" finished-at="2025-06-06T16:05:45 IST" duration-ms="2153" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:54:03 IST" name="browserclose" finished-at="2025-06-06T16:54:06 IST" duration-ms="2115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:05:45 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:05:48 IST" duration-ms="2482" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:54:06 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:54:09 IST" duration-ms="3146" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -646,7 +646,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="bookHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:05:48 IST" name="bookHotelTest" data-provider="readData" finished-at="2025-06-06T16:05:53 IST" duration-ms="4961" status="PASS">
+        <test-method signature="bookHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:54:09 IST" name="bookHotelTest" data-provider="readData" finished-at="2025-06-06T16:54:14 IST" duration-ms="5225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -681,25 +681,25 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Search Hotel Not Function Completed Due To Error]]>
+              <![CDATA[Search Hotel Function Completed Due To Error]]>
             </line>
           </reporter-output>
         </test-method> <!-- bookHotelTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:05:53 IST" name="browserclose" finished-at="2025-06-06T16:05:55 IST" duration-ms="2203" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC003_SearchAHotel@1c1bbc4e]" started-at="2025-06-06T16:54:14 IST" name="browserclose" finished-at="2025-06-06T16:54:16 IST" duration-ms="2128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
       </class> <!-- tests.TC003_SearchAHotel -->
       <class name="tests.TC004_SelectAHotelTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:04:35 IST" name="setup" finished-at="2025-06-06T16:04:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:52:48 IST" name="setup" finished-at="2025-06-06T16:52:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:05:55 IST" name="testDetails" finished-at="2025-06-06T16:05:55 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:54:16 IST" name="testDetails" finished-at="2025-06-06T16:54:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:05:55 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:05:58 IST" duration-ms="2597" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:54:16 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:54:19 IST" duration-ms="2955" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -715,7 +715,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="selectHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:05:58 IST" name="selectHotelTest" data-provider="readData" finished-at="2025-06-06T16:06:03 IST" duration-ms="5778" status="PASS">
+        <test-method signature="selectHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:54:19 IST" name="selectHotelTest" data-provider="readData" finished-at="2025-06-06T16:54:25 IST" duration-ms="5613" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -750,15 +750,15 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Select Hotel Function Completed]]>
+              <![CDATA[Select Hotel Function Completed With Valid Details]]>
             </line>
           </reporter-output>
         </test-method> <!-- selectHotelTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:06:03 IST" name="browserclose" finished-at="2025-06-06T16:06:06 IST" duration-ms="2210" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:54:25 IST" name="browserclose" finished-at="2025-06-06T16:54:27 IST" duration-ms="2245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:06:06 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:06:08 IST" duration-ms="2391" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:54:27 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:54:30 IST" duration-ms="3506" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -774,7 +774,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="selectHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:06:08 IST" name="selectHotelTest" data-provider="readData" finished-at="2025-06-06T16:06:13 IST" duration-ms="5346" status="PASS">
+        <test-method signature="selectHotelTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:54:30 IST" name="selectHotelTest" data-provider="readData" finished-at="2025-06-06T16:54:36 IST" duration-ms="5269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -809,29 +809,29 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Select Hotel Not Function Completed Due To Error]]>
+              <![CDATA[Select Hotel Function Not Completed Due To Error]]>
             </line>
           </reporter-output>
         </test-method> <!-- selectHotelTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:06:13 IST" name="browserclose" finished-at="2025-06-06T16:06:16 IST" duration-ms="2222" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC004_SelectAHotelTest@55fe41ea]" started-at="2025-06-06T16:54:36 IST" name="browserclose" finished-at="2025-06-06T16:54:38 IST" duration-ms="2215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
       </class> <!-- tests.TC004_SelectAHotelTest -->
       <class name="tests.TC001_NewRegisterationTest">
-        <test-method is-config="true" signature="reportInitilization()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:04:34 IST" name="reportInitilization" finished-at="2025-06-06T16:04:35 IST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="reportInitilization()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:52:48 IST" name="reportInitilization" finished-at="2025-06-06T16:52:48 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportInitilization -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:04:35 IST" name="setup" finished-at="2025-06-06T16:04:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:52:48 IST" name="setup" finished-at="2025-06-06T16:52:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:04:35 IST" name="testDetails" finished-at="2025-06-06T16:04:35 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:52:48 IST" name="testDetails" finished-at="2025-06-06T16:52:48 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:04:35 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:04:38 IST" duration-ms="2891" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:52:49 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:52:51 IST" duration-ms="1787" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -847,11 +847,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="newRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:04:38 IST" name="newRegisterTest" data-provider="readData" finished-at="2025-06-06T16:05:01 IST" duration-ms="22592" status="PASS">
+        <test-method signature="newRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:52:51 IST" name="newRegisterTest" data-provider="readData" finished-at="2025-06-06T16:53:17 IST" duration-ms="26389" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[JohnDoe003]]>
+                <![CDATA[JohnDoe005]]>
               </value>
             </param>
             <param index="1">
@@ -871,7 +871,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[johndoe003@gmail.com]]>
+                <![CDATA[johndoe005@gmail.com]]>
               </value>
             </param>
             <param index="5">
@@ -891,11 +891,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- newRegisterTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:05:01 IST" name="browserclose" finished-at="2025-06-06T16:05:03 IST" duration-ms="2282" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:53:17 IST" name="browserclose" finished-at="2025-06-06T16:53:20 IST" duration-ms="2280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:05:03 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:05:06 IST" duration-ms="2457" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:53:20 IST" name="launchAndLoadingURL" finished-at="2025-06-06T16:53:23 IST" duration-ms="3660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -911,7 +911,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadingURL -->
-        <test-method signature="newRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:05:06 IST" name="newRegisterTest" data-provider="readData" finished-at="2025-06-06T16:05:19 IST" duration-ms="13773" status="PASS">
+        <test-method signature="newRegisterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:53:23 IST" name="newRegisterTest" data-provider="readData" finished-at="2025-06-06T16:53:37 IST" duration-ms="13562" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -955,11 +955,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- newRegisterTest -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:05:19 IST" name="browserclose" finished-at="2025-06-06T16:05:21 IST" duration-ms="2123" status="PASS">
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:53:37 IST" name="browserclose" finished-at="2025-06-06T16:53:39 IST" duration-ms="2193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="closereport()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:09:07 IST" name="closereport" finished-at="2025-06-06T16:09:07 IST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="closereport()[pri:0, instance:tests.TC001_NewRegisterationTest@4e08711f]" started-at="2025-06-06T16:57:29 IST" name="closereport" finished-at="2025-06-06T16:57:29 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closereport -->

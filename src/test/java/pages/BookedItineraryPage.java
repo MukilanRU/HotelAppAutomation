@@ -65,11 +65,13 @@ public class BookedItineraryPage extends ProjectSpecificationMethods {
 		if (testType.equalsIgnoreCase("validtest")) {
 			waitForVisibilityOfElement(searchBar, 10).sendKeys(orderIdValue);
 			waitForVisibilityOfElement(goBtn, 10).click();
+			waitForSeconds(1);
 			String actual = searchError.getText();
 			Assert.assertEquals(actual, expected);
 			Reporter.log("Valid search function verified",true);
 		} else {
 			waitForVisibilityOfElement(goBtn, 10).click();
+			waitForSeconds(1);
 			String actual = searchError.getText();
 			Assert.assertEquals(actual, expected);
 			Reporter.log("Invalid search function verified",true);

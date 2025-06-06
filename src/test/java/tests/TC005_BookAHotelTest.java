@@ -22,10 +22,10 @@ public class TC005_BookAHotelTest extends ProjectSpecificationMethods {
 			String firstName, String lastName, String address, String ccNumber, String cvvNumber, String expected,
 			String testType) {
 		LoginPage obj = new LoginPage(driver);
-		obj.enterUsername(userName).enterPassword(passWord).clickLogin().selectLocationName().selectHotelRoom()
-				.selectRoomType().selectNoOfRooms().enterCheckInDate(checkinDate).enterCheckOutDate(checkOutDate)
-				.selectNoOfAdults().selectNoOfChildren().clickConfirmBtn().clickSelectBtn().clickcontinueBtn()
-				.enterFirstName(firstName).enterLastName(lastName).enterAddress(address).enterCCNum(ccNumber)
-				.selectCCType().selectCCExpiryMonth().selectCCExpiryYear().enterCVVNum(cvvNumber).clickBookNowBtn().bookingConfirmationValidation(expected, testType);
+			obj.enterUsername(userName).enterPassword(passWord).clickLogin().selectLocationName().selectHotelRoom()
+			.selectRoomType().selectNoOfRooms().enterCheckInDate(checkinDate).enterCheckOutDate(checkOutDate)
+			.selectNoOfAdults().selectNoOfChildren().clickConfirmBtn().clickSelectBtn().clickcontinueBtn()
+			.enterFirstName(firstName).enterLastName(lastName).enterAddress(address).enterCCNum(ccNumber)
+			.selectCCType().selectCCExpiryMonth().selectCCExpiryYear().enterCVVNum(cvvNumber).clickBookNowBtn().bookingConfirmationValidation(expected, testType);
 	}
 }
